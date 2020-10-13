@@ -1,0 +1,83 @@
+2020-10-13 19:38:53.578 [main] INFO  database.DBConfigure:20 - Successfully connected to: jdbc:postgresql://localhost:5432/studs
+2020-10-13 19:38:53.763 [main] INFO  network.ServerMain:55 - Socket Successfully opened on 0.0.0.0/0.0.0.0:5454
+2020-10-13 19:39:09.180 [main] INFO  network.ClientUdpChannel:69 - send object connect
+2020-10-13 19:39:09.187 [main] INFO  network.ClientUdpChannel:46 - sent datagram to localhost/127.0.0.1:5454
+2020-10-13 19:39:09.188 [ServerReceiverThread] INFO  network.ServerSocket:37 - Received datagram in SERVER from /127.0.0.1:62413
+2020-10-13 19:39:09.192 [ServerReceiverThread] INFO  network.ServerHandler:66 - received object: connect
+2020-10-13 19:39:09.200 [ForkJoinPool-1-worker-1] INFO  network.ServerSocket:48 - send object connect
+2020-10-13 19:39:09.202 [ForkJoinPool-1-worker-1] INFO  network.ServerSocket:27 - Sent datagram from SERVER to /127.0.0.1:62413
+2020-10-13 19:39:09.252 [ClientReceiverThread] INFO  network.ClientHandler:79 - received object: connect
+2020-10-13 19:39:09.688 [main] INFO  network.ClientUdpChannel:36 - Trying to reach the server...
+2020-10-13 19:39:09.688 [main] INFO  network.ClientHandler:108 - Successfully connected to the server
+2020-10-13 19:39:29.361 [main] ERROR network.CommandReader:108 - Пожалуйста, авторизуйтесь
+2020-10-13 19:40:02.713 [main] INFO  network.ClientUdpChannel:69 - send object network.packets.CommandPacket@4e718207
+2020-10-13 19:40:02.713 [main] INFO  network.ClientUdpChannel:46 - sent datagram to localhost/127.0.0.1:5454
+2020-10-13 19:40:02.714 [ServerReceiverThread] INFO  network.ServerSocket:37 - Received datagram in SERVER from /127.0.0.1:62413
+2020-10-13 19:40:02.717 [ServerReceiverThread] INFO  network.ServerHandler:66 - received object: network.packets.CommandPacket@760d4f9f
+2020-10-13 19:40:02.767 [ForkJoinPool-1-worker-2] INFO  network.ServerSocket:48 - send object network.packets.CommandExecutionPacket@2c2084aa
+2020-10-13 19:40:02.768 [ForkJoinPool-1-worker-2] INFO  network.ServerSocket:27 - Sent datagram from SERVER to /127.0.0.1:62413
+2020-10-13 19:40:02.769 [ClientReceiverThread] INFO  network.ClientHandler:79 - received object: network.packets.CommandExecutionPacket@58e94f6a
+2020-10-13 19:40:50.641 [main] INFO  network.ClientUdpChannel:69 - send object network.packets.CommandPacket@42607a4f
+2020-10-13 19:40:50.642 [main] INFO  network.ClientUdpChannel:46 - sent datagram to localhost/127.0.0.1:5454
+2020-10-13 19:40:50.642 [ServerReceiverThread] INFO  network.ServerSocket:37 - Received datagram in SERVER from /127.0.0.1:62413
+2020-10-13 19:40:50.643 [ServerReceiverThread] INFO  network.ServerHandler:66 - received object: network.packets.CommandPacket@70ab2196
+2020-10-13 19:40:50.659 [ForkJoinPool-1-worker-3] INFO  network.ServerSocket:48 - send object network.packets.CommandExecutionPacket@113f0a39
+2020-10-13 19:40:50.659 [ForkJoinPool-1-worker-3] INFO  network.ServerSocket:27 - Sent datagram from SERVER to /127.0.0.1:62413
+2020-10-13 19:40:50.660 [ClientReceiverThread] INFO  network.ClientHandler:79 - received object: network.packets.CommandExecutionPacket@391b837
+2020-10-13 19:40:54.601 [main] INFO  network.ClientUdpChannel:69 - send object network.packets.CommandPacket@6ec8211c
+2020-10-13 19:40:54.601 [main] INFO  network.ClientUdpChannel:46 - sent datagram to localhost/127.0.0.1:5454
+2020-10-13 19:40:54.601 [ServerReceiverThread] INFO  network.ServerSocket:37 - Received datagram in SERVER from /127.0.0.1:62413
+2020-10-13 19:40:54.603 [ServerReceiverThread] INFO  network.ServerHandler:66 - received object: network.packets.CommandPacket@608764ca
+2020-10-13 19:40:54.604 [ForkJoinPool-1-worker-3] INFO  network.ServerSocket:48 - send object network.packets.CommandExecutionPacket@3aa4c941
+2020-10-13 19:40:54.604 [ForkJoinPool-1-worker-3] INFO  network.ServerSocket:27 - Sent datagram from SERVER to /127.0.0.1:62413
+2020-10-13 19:40:54.604 [ClientReceiverThread] INFO  network.ClientHandler:79 - received object: network.packets.CommandExecutionPacket@33687866
+2020-10-13 19:43:01.340 [main] INFO  network.ClientUdpChannel:69 - send object network.packets.CommandPacket@eb21112
+2020-10-13 19:43:01.341 [main] INFO  network.ClientUdpChannel:46 - sent datagram to localhost/127.0.0.1:5454
+2020-10-13 19:43:01.341 [ServerReceiverThread] INFO  network.ServerSocket:37 - Received datagram in SERVER from /127.0.0.1:62413
+2020-10-13 19:43:01.343 [ServerReceiverThread] INFO  network.ServerHandler:66 - received object: network.packets.CommandPacket@9935ff7
+2020-10-13 19:43:01.469 [ForkJoinPool-1-worker-4] INFO  network.ServerSocket:48 - send object network.packets.CommandExecutionPacket@4231476
+2020-10-13 19:43:01.470 [ForkJoinPool-1-worker-4] INFO  network.ServerSocket:27 - Sent datagram from SERVER to /127.0.0.1:62413
+2020-10-13 19:43:01.470 [ClientReceiverThread] INFO  network.ClientHandler:79 - received object: network.packets.CommandExecutionPacket@3cc83be5
+2020-10-13 19:43:10.553 [main] INFO  network.ClientUdpChannel:69 - send object network.packets.CommandPacket@149494d8
+2020-10-13 19:43:10.553 [main] INFO  network.ClientUdpChannel:46 - sent datagram to localhost/127.0.0.1:5454
+2020-10-13 19:43:10.554 [ServerReceiverThread] INFO  network.ServerSocket:37 - Received datagram in SERVER from /127.0.0.1:62413
+2020-10-13 19:43:10.554 [ServerReceiverThread] INFO  network.ServerHandler:66 - received object: network.packets.CommandPacket@52e9db3b
+2020-10-13 19:43:10.555 [ForkJoinPool-1-worker-4] INFO  network.ServerSocket:48 - send object network.packets.CommandExecutionPacket@6decf4
+2020-10-13 19:43:10.555 [ForkJoinPool-1-worker-4] INFO  network.ServerSocket:27 - Sent datagram from SERVER to /127.0.0.1:62413
+2020-10-13 19:43:10.555 [ClientReceiverThread] INFO  network.ClientHandler:79 - received object: network.packets.CommandExecutionPacket@2ec8a109
+2020-10-13 19:43:26.077 [main] INFO  network.ClientUdpChannel:69 - send object network.packets.CommandPacket@306279ee
+2020-10-13 19:43:26.077 [main] INFO  network.ClientUdpChannel:46 - sent datagram to localhost/127.0.0.1:5454
+2020-10-13 19:43:26.077 [ServerReceiverThread] INFO  network.ServerSocket:37 - Received datagram in SERVER from /127.0.0.1:62413
+2020-10-13 19:43:26.079 [ServerReceiverThread] INFO  network.ServerHandler:66 - received object: network.packets.CommandPacket@3a57968f
+2020-10-13 19:43:26.111 [ForkJoinPool-1-worker-4] INFO  network.ServerSocket:48 - send object network.packets.CommandExecutionPacket@3d7d6dbe
+2020-10-13 19:43:26.112 [ForkJoinPool-1-worker-4] INFO  network.ServerSocket:27 - Sent datagram from SERVER to /127.0.0.1:62413
+2020-10-13 19:43:26.112 [ClientReceiverThread] INFO  network.ClientHandler:79 - received object: network.packets.CommandExecutionPacket@2016f4e7
+2020-10-13 19:44:05.392 [main] INFO  network.ClientUdpChannel:69 - send object network.packets.CommandPacket@68ceda24
+2020-10-13 19:44:05.393 [main] INFO  network.ClientUdpChannel:46 - sent datagram to localhost/127.0.0.1:5454
+2020-10-13 19:44:05.393 [ServerReceiverThread] INFO  network.ServerSocket:37 - Received datagram in SERVER from /127.0.0.1:62413
+2020-10-13 19:44:05.405 [ServerReceiverThread] INFO  network.ServerHandler:66 - received object: network.packets.CommandPacket@27aeaea7
+2020-10-13 19:44:05.445 [ForkJoinPool-1-worker-5] INFO  network.ServerSocket:48 - send object network.packets.CommandExecutionPacket@7aa824ce
+2020-10-13 19:44:05.446 [ForkJoinPool-1-worker-5] INFO  network.ServerSocket:27 - Sent datagram from SERVER to /127.0.0.1:62413
+2020-10-13 19:44:05.446 [ClientReceiverThread] INFO  network.ClientHandler:79 - received object: network.packets.CommandExecutionPacket@50cd03cb
+2020-10-13 19:44:10.081 [main] INFO  network.ClientUdpChannel:69 - send object network.packets.CommandPacket@76b10754
+2020-10-13 19:44:10.081 [ServerReceiverThread] INFO  network.ServerSocket:37 - Received datagram in SERVER from /127.0.0.1:62413
+2020-10-13 19:44:10.081 [main] INFO  network.ClientUdpChannel:46 - sent datagram to localhost/127.0.0.1:5454
+2020-10-13 19:44:10.082 [ServerReceiverThread] INFO  network.ServerHandler:66 - received object: network.packets.CommandPacket@335244be
+2020-10-13 19:44:10.084 [ForkJoinPool-1-worker-5] INFO  network.ServerSocket:48 - send object network.packets.CommandExecutionPacket@4d75300b
+2020-10-13 19:44:10.085 [ForkJoinPool-1-worker-5] INFO  network.ServerSocket:27 - Sent datagram from SERVER to /127.0.0.1:62413
+2020-10-13 19:44:10.085 [ClientReceiverThread] INFO  network.ClientHandler:79 - received object: network.packets.CommandExecutionPacket@2d271d24
+2020-10-13 19:44:26.373 [main] INFO  network.ClientUdpChannel:69 - send object network.packets.CommandPacket@3d8314f0
+2020-10-13 19:44:26.374 [main] INFO  network.ClientUdpChannel:46 - sent datagram to localhost/127.0.0.1:5454
+2020-10-13 19:44:26.374 [ServerReceiverThread] INFO  network.ServerSocket:37 - Received datagram in SERVER from /127.0.0.1:62413
+2020-10-13 19:44:26.375 [ServerReceiverThread] INFO  network.ServerHandler:66 - received object: network.packets.CommandPacket@42421ab5
+2020-10-13 19:44:26.460 [ForkJoinPool-1-worker-6] INFO  network.ServerSocket:48 - send object network.packets.CommandExecutionPacket@75b6b3c3
+2020-10-13 19:44:26.460 [ForkJoinPool-1-worker-6] INFO  network.ServerSocket:27 - Sent datagram from SERVER to /127.0.0.1:62413
+2020-10-13 19:44:26.460 [ClientReceiverThread] INFO  network.ClientHandler:79 - received object: network.packets.CommandExecutionPacket@468c3160
+2020-10-13 19:44:30.442 [main] INFO  network.ClientUdpChannel:69 - send object network.packets.CommandPacket@2a40cd94
+2020-10-13 19:44:30.443 [main] INFO  network.ClientUdpChannel:46 - sent datagram to localhost/127.0.0.1:5454
+2020-10-13 19:44:30.443 [ServerReceiverThread] INFO  network.ServerSocket:37 - Received datagram in SERVER from /127.0.0.1:62413
+2020-10-13 19:44:30.444 [ServerReceiverThread] INFO  network.ServerHandler:66 - received object: network.packets.CommandPacket@751c7f7f
+2020-10-13 19:44:30.444 [ForkJoinPool-1-worker-6] INFO  network.ServerSocket:48 - send object network.packets.CommandExecutionPacket@7f4ed8b3
+2020-10-13 19:44:30.444 [ForkJoinPool-1-worker-6] INFO  network.ServerSocket:27 - Sent datagram from SERVER to /127.0.0.1:62413
+2020-10-13 19:44:30.445 [ClientReceiverThread] INFO  network.ClientHandler:79 - received object: network.packets.CommandExecutionPacket@512a449a
+2020-10-13 19:44:55.312 [main] INFO  network.CommandReader:113 - Finishing client
